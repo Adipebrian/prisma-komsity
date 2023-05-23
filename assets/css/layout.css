@@ -19,6 +19,10 @@ body{
 .d-flex{
     display: flex;
 }
+.swiper {
+    width: 100%;
+    height: max-content;
+}
 
 
 
@@ -57,53 +61,53 @@ i{
     height: 25px;
 }
 i.icon_user{
-    background: url(/assets/img/user.png);
+    background: url(../../assets/img/user.png);
     margin-right: 10px;
 }
 i.icon_user2{
-    background: url(/assets/img/user2.png);
+    background: url(../../assets/img/user2.png);
     margin-right: 10px;
 }
 i.icon_logout{
-    background: url(/assets/img/logout.png);
+    background: url(../../assets/img/logout.png);
     margin-right: 10px;
 }
 i.icon_ig{
-    background: url(/assets/img/ig.png);
+    background: url(../../assets/img/ig.png);
     margin-right: 10px;
 }
 i.icon_fb{
-    background: url(/assets/img/fb.png);
+    background: url(../../assets/img/fb.png);
     margin-right: 10px;
 }
 i.icon_jam{
-    background: url(/assets/img/market/clock.png);
+    background: url(../market/clock.png);
     margin-right: 10px;
      background-position: center;
     background-repeat: no-repeat;
 }
 i.icon_jalan{
-    background: url(/assets/img/market/marker.png);
+    background: url(../market/marker.png);
     margin-right: 10px;
     background-position: center;
     background-repeat: no-repeat;
     width: 30px;
 }
 i.icon_ac{
-    background: url(/assets/img/ac.png);
+    background: url(../../assets/img/ac.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
 }
 i.icon_meja{
-    background: url(/assets/img/meja.png);
+    background: url(../../assets/img/meja.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 i.icon_bathtub{
-    background: url(/assets/img/bathtub.png);
+    background: url(../../assets/img/bathtub.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
@@ -111,28 +115,28 @@ i.icon_bathtub{
     width: 40px;
 }
 i.icon_bed{
-    background: url(/assets/img/bed.png);
+    background: url(../../assets/img/bed.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 i.icon_lemari{
-    background: url(/assets/img/lemari.png);
+    background: url(../../assets/img/lemari.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 i.icon_toilet{
-    background: url(/assets/img/toilet.png);
+    background: url(../../assets/img/toilet.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 i.icon_search{
-    background: url(/assets/img/search.png);
+    background: url(../../assets/img/search.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
@@ -141,7 +145,7 @@ i.icon_search{
     left: 10px;
     }
 i.icon_star{
-    background: url(/assets/img/food-and-drink/star.png);
+    background: url(../food-and-drink/star.png);
     margin-right: 10px;
     background-position: center;
     background-size: contain;
@@ -154,6 +158,9 @@ i.icon_star{
 }
 .c-white{
     color: #fff;
+}
+.c-gradient{
+    background: linear-gradient(166.23deg, #062E38 15.08%, rgba(59, 201, 209, 0) 123.82%);
 }
 
 /* Search */
