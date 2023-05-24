@@ -4,44 +4,51 @@
     display: flex;
 }
 
-.login .box{
+.login .box {
     width: 40%;
     margin-right: 40px;
 }
-.login .box form{
+
+.login .box form {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 31px;
-width: 400px;
-height: 90vh;
-display: flex;
-flex-direction: column;
-padding: 30px;
+    width: 400px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
-.login .box form .group{
+
+.login .box form .group {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
-.login .box form .title{
+
+.login .box form .title {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-.login .box form .group label{
+
+.login .box form .group label {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.login .box form .group input{
+
+.login .box form .group input {
     background: none;
     border: 0;
     border-bottom: 2px solid black;
+    padding: 5px;
 }
-.login .box form button{
+
+.login .box form button {
     display: flex;
     justify-content: center;
     border: 2px solid #072F39;
@@ -51,7 +58,8 @@ padding: 30px;
     font-size: 20px;
     font-weight: bold;
 }
-.login .img{
+
+.login .img {
     width: 60%;
     height: 90vh;
     display: flex;
@@ -60,11 +68,13 @@ padding: 30px;
     align-items: center;
     color: #fff;
 }
-.login .img .logo{
+
+.login .img .logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login .img img{
+
+.login .img img {
     width: 60%;
 }
