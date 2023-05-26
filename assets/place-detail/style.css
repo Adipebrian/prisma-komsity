@@ -60,8 +60,9 @@
     align-items: center;
 }
 .place-detail .swiper .swiper-slide img{
-    width:80vw;
+    width: 160vw;
     height: 500px;
+    padding-left: 130vh;
 }
 .place-detail .galery{
     display: grid;

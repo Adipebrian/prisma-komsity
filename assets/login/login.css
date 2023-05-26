@@ -78,3 +78,7 @@
 .login .img img {
     width: 60%;
 }
+
+button {
+    cursor: pointer;
+}

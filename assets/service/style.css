@@ -116,3 +116,6 @@
     border-right: 1px solid black;
 }
 
+.service .c-box .box .img:hover {
+    cursor: pointer;
+}

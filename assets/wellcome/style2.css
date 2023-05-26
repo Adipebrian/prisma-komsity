@@ -51,11 +51,13 @@
 .wellcome .banner .box h1 {
     font-size: 30px;
     margin-bottom: 40px;
+    margin-right: 90px;
     color: #fff;
 }
 
 .wellcome .banner .box p {
     font-size: 14px;
+    margin-right: 95px;
     margin-bottom: 40px;
     color: #fff;
     text-align: center;
@@ -65,6 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 85px;
     margin-top: 20px;
 }
 
@@ -80,7 +83,8 @@
 }
 
 .wellcome .banner .box .btn a.btn-primary {
-    background-color: #072F39;
+    border: 1px solid #fff;
+    background-color: transparent;
     color: #fff;
     text-align: center;
 }
@@ -88,4 +92,10 @@
 .wellcome .banner .box .btn a.btn-outline {
     border: 2px solid #072F39;
     color: #072F39;
+}
+
+.wellcome .banner .box .btn a.btn-primary:hover {
+    background-color: #072F39;
+    color: white;
+    transition: 0.3s;
 }
