@@ -176,3 +176,13 @@
     left: 10px;
     top: 10px;
 }
+
+.box:hover {
+    cursor: pointer;
+}
+
+.food .c-box a:visited {
+    color: black;
+    text-decoration: underline none;
+
+}

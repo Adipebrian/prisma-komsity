@@ -67,3 +67,11 @@
     transform: translateX(-30px);
     color: #FFFFFF;
 }
+
+.acc .box .group input{
+    border-bottom: 2px solid black;
+}
+
+input {
+    border: none;
+}
