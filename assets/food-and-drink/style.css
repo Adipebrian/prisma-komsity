@@ -161,6 +161,7 @@
     height: 200px;
 }
 
+
 .food .swiper .swiper-slide .price {
     display: flex;
     font-size: 16px;
@@ -185,4 +186,12 @@
     color: black;
     text-decoration: underline none;
 
+}
+
+/* ukuran mobile */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .food .c-box2 {
+        gap: 20px;
+        justify-items: center;
+    }
 }

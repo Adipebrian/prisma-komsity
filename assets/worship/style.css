@@ -54,11 +54,15 @@
 }
 
 .worship .swiper .swiper-slide .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     border-radius: 20px;
     color: #fff;
     text-align: center;
     margin-bottom: 60px;
+    height: 100px;
 }
 
 .worship .swiper .swiper-slide a {

@@ -79,3 +79,14 @@
     text-decoration: none;
     width: max-content;
 }
+
+/* ukuran mobile */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .d-food {
+        flex-direction: column;
+    }
+    .d-food .left ,.d-food .right {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

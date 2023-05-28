@@ -18,7 +18,7 @@
             <a href="#" class="logo">
                 <img src="../assets/img/logo.png" alt="">
             </a>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="food-and-drink.html">Food&Drink</a></li>
                 <li><a href="market.html">Market</a></li>
@@ -33,6 +33,13 @@
                         <li><a href="about.html">About Us</a></li>
                     </ul>
                 </li>
+                <li class="profile2">
+                    <span>Saputra</span>
+                    <ul class="d-none m-profile2">
+                        <li><a href="account.html"><i class="icon_user2"></i>My Profile</a></li>
+                        <li><a href="wellcome.html"><i class="icon_logout"></i>Logout</a></li>
+                    </ul>
+                </li>
             </ul>
             <div class="profile">
                 <span>
@@ -43,6 +50,12 @@
                     <li><a href="account.html"><i class="icon_user2"></i>My Profile</a></li>
                     <li><a href="wellcome.html"><i class="icon_logout"></i>Logout</a></li>
                 </ul>
+            </div>
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
         <!-- Banner -->
@@ -83,6 +96,36 @@
                     <img src="../assets/boarding/Kost 3.png" alt="">
                     <div class="text">
                         <div class="title">Kost RRQ.Asep</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est eos nobis
+                            doloremque repellat
+                            saepe nisi necessitatibus consequuntur quaerat perspiciatis.</p>
+                        <a href="detail-boarding-house.html">View Detail</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../assets/boarding/Kost4.png" alt="">
+                    <div class="text">
+                        <div class="title">Kost EVOS.GalangTzy</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est eos nobis
+                            doloremque repellat
+                            saepe nisi necessitatibus consequuntur quaerat perspiciatis.</p>
+                        <a href="detail-boarding-house.html">View Detail</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../assets/boarding/Kost4.png" alt="">
+                    <div class="text">
+                        <div class="title">Kost EVOS.GalangTzy</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est eos nobis
+                            doloremque repellat
+                            saepe nisi necessitatibus consequuntur quaerat perspiciatis.</p>
+                        <a href="detail-boarding-house.html">View Detail</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../assets/boarding/Kost4.png" alt="">
+                    <div class="text">
+                        <div class="title">Kost EVOS.GalangTzy</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est eos nobis
                             doloremque repellat
                             saepe nisi necessitatibus consequuntur quaerat perspiciatis.</p>
@@ -148,8 +191,18 @@
         $(document).ready(function () {
             new Swiper('.swiper', {
                 loop: true,
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
+                direction: 'horizontal',
+                loop: false,
+                speed: 1400,
+                parallax: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
                 slidesPerView: 5,
                 paginationClickable: true,
                 spaceBetween: 20,

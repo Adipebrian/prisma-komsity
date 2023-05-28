@@ -60,11 +60,10 @@
     align-items: center;
 }
 .place-detail .swiper .swiper-slide img{
-    width: 160vw;
     height: 500px;
-    padding-left: 130vh;
 }
 .place-detail .galery{
+    width: 100%;
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
@@ -81,4 +80,15 @@
     text-align: center;
     font-size: 30px;
     padding: 30px;
+}
+
+/* ukuran mobile */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .place-detail .galery{
+        justify-items: center;
+        align-content: center;
+    }
+    .place-detail .galery figure{
+        width: 80vw;
+    }
 }

@@ -19,6 +19,7 @@
     font-size: 40px;
     margin-left: 40px;
 }
+
 #page-detail {
     background-position: center;
     background-size: cover;
@@ -221,3 +222,62 @@
 }
 
 
+/* ukuran mobile */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .menu-toggle {
+        top: 20px;
+    }
+    nav ul.menu {
+        background-color: #fff;
+
+    }
+
+    nav ul.menu li a {
+        color: #072F39;
+    }
+    nav ul.menu .oth span{
+        color: #072F39;
+    }
+    nav ul.menu .profile2 span{
+        color: #072F39;
+    }
+    .about .variasi {
+        width: 40px;
+        height: 50px;
+    }
+    .about .variasi2 {
+        width: 40px;
+        height: 50px;
+    }
+    .about .sub1 {
+        width: 90vw;
+    }
+    .about2 .c-box {
+        flex-direction: column;
+        margin: 0;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        height: max-content;
+    }
+    .about2 .text {
+        width: 90vw;
+        margin: 0;
+    }
+    .about2 {
+        height: max-content;
+    }
+    .about2 .variasi {
+        width: 40px;
+        height: 50px;
+    }
+    .about2 .logo-about {
+        width: 90vw;
+        margin: 0;
+    }
+    .features .c-box {
+        justify-items: center;
+        gap: 30px;
+        align-content: center;
+    }
+}

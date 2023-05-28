@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/layout.css">
     <link rel="stylesheet" href="../assets/about/style.css">
 </head>
+
 <body>
     <header>
         <div class="container nav">
@@ -21,6 +23,12 @@
                 <li><a href="boarding-house.html">Boarding House</a></li>
                 <li><a href="place.html">Telyu Place</a></li>
             </ul>
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
         <div class="banner">
             <img src="../assets/about/banner.png" alt="">
@@ -36,7 +44,10 @@
     </section>
     <section class="box-about container">
         <div class="title">OUR VISSION</div>
-        <p>Visi kami dalam membuat aplikasi adalah menciptakan solusi yang inovatif, user-friendly, dan bermanfaat bagi pengguna. Kami ingin menghadirkan aplikasi yang memberikan pengalaman yang memudahkan pengguna dalam menjalankan aktivitas sehari-hari, meningkatkan efisiensi, dan memberikan nilai tambah dalam kehidupan mereka.
+        <p>Visi kami dalam membuat aplikasi adalah menciptakan solusi yang inovatif, user-friendly, dan bermanfaat bagi
+            pengguna. Kami ingin menghadirkan aplikasi yang memberikan pengalaman yang memudahkan pengguna dalam
+            menjalankan aktivitas sehari-hari, meningkatkan efisiensi, dan memberikan nilai tambah dalam kehidupan
+            mereka.
         </p>
     </section>
     <section class="team container">
@@ -84,7 +95,16 @@
         </div>
     </footer>
     <div class="cp c-primary">
-        © 2023 Prima Komsity company. All Rights Reserved. 
+        © 2023 Prima Komsity company. All Rights Reserved.
     </div>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle input");
+        const nav = document.querySelector(".nav ul");
+
+        menuToggle.addEventListener("click", function () {
+            nav.classList.toggle("slide");
+        });
+    </script>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 .login {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
 }
 
@@ -13,7 +13,6 @@
     background: rgba(255, 255, 255, 0.5);
     border-radius: 31px;
     width: 400px;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -23,7 +22,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .login .box form .title {
@@ -46,6 +45,9 @@
     border: 0;
     border-bottom: 2px solid black;
     padding: 5px;
+}
+.login .box form .group input:focus{
+    outline: none;
 }
 
 .login .box form button {
@@ -81,4 +83,26 @@
 
 button {
     cursor: pointer;
+}
+
+
+/* ukuran mobile */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .login{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .login .box {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .login .img {
+        width: 100%;
+    }
+    .login .box form {
+        width: 100%;
+    }
 }
